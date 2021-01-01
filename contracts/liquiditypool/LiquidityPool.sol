@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "./LiquidityPoolConfig.sol";
-import "../interface/IPriceOracle.sol";
+import "./IPriceOracle.sol";
 
 // LiquidityPool implements the contract for handling stable coin
 // and synthetic tokens liquidity pools and providing core DeFi
