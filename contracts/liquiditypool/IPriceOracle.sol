@@ -1,4 +1,4 @@
-pragma solidity  <0.8.0;
+pragma solidity ^0.7.0;
 
 // IPriceOracle defines the interface of the price oracle contract
 // used to provide up-to-date information about the value
