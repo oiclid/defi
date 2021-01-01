@@ -1,5 +1,4 @@
-pragma solidity ^0.6.5;
-
+pragma solidity >=0.5.0 <0.9.0;
 import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/access/Ownable.sol";
 
 // LiquidityPoolConfig implements the internal configuration
