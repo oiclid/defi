@@ -5,10 +5,11 @@ import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.so
 import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol";
 import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/utils/Address.sol";
 import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
-import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
+// import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
 import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ERC20/SafeERC20.sol";
 import "./LiquidityPoolConfig.sol";
 import "./IPriceOracle.sol";
+import "./ERC20Mintable.sol"
 
 // LiquidityPool implements the contract for handling stable coin
 // and synthetic tokens liquidity pools and providing core DeFi
